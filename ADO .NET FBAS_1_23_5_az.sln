@@ -3,11 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO .NET 01. SqlConnection, SqlDataReader", "ADO .NET 01. SqlConnection, SqlDataReader\ADO .NET 01. SqlConnection, SqlDataReader.csproj", "{BB14B439-D8A6-427E-99C3-6224D98C36D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADO .NET 01. SqlConnection, SqlDataReader", "ADO .NET 01. SqlConnection, SqlDataReader\ADO .NET 01. SqlConnection, SqlDataReader.csproj", "{BB14B439-D8A6-427E-99C3-6224D98C36D6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ADO .NET 01", "ADO .NET 01", "{02FE1D2B-20BF-4FA9-89AA-FF72CC0D7022}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO .NET 01. Sql Read Data", "ADO .NET 01. Sql Read Data\ADO .NET 01. Sql Read Data.csproj", "{BD179FAF-4E61-4478-A3EE-F6089CB2B49E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADO .NET 01. Sql Read Data", "ADO .NET 01. Sql Read Data\ADO .NET 01. Sql Read Data.csproj", "{BD179FAF-4E61-4478-A3EE-F6089CB2B49E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ADO .NET 02", "ADO .NET 02", "{C1FABE31-612A-47C4-890A-27AD4C6BC50E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO .NET 02. Multi Query", "ADO .NET 02. Multi Query\ADO .NET 02. Multi Query.csproj", "{2BF9FB6E-9B75-4AAB-B337-3EF4338F35EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO 02. Configuration file", "ADO 02. Configuration file\ADO 02. Configuration file.csproj", "{EB0E45D2-9DED-438E-B514-082730CA78BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO 02. Paramerized query", "ADO 02. Paramerized query\ADO 02. Paramerized query.csproj", "{138AE907-990F-4306-9DDC-786DC4BB8FEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO 02. Stored procedure execute", "ADO 02. Stored procedure execute\ADO 02. Stored procedure execute.csproj", "{C1FFE400-2C70-4B17-9C84-69DB08C6E272}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +33,22 @@ Global
 		{BD179FAF-4E61-4478-A3EE-F6089CB2B49E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD179FAF-4E61-4478-A3EE-F6089CB2B49E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD179FAF-4E61-4478-A3EE-F6089CB2B49E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BF9FB6E-9B75-4AAB-B337-3EF4338F35EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BF9FB6E-9B75-4AAB-B337-3EF4338F35EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BF9FB6E-9B75-4AAB-B337-3EF4338F35EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BF9FB6E-9B75-4AAB-B337-3EF4338F35EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB0E45D2-9DED-438E-B514-082730CA78BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB0E45D2-9DED-438E-B514-082730CA78BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB0E45D2-9DED-438E-B514-082730CA78BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB0E45D2-9DED-438E-B514-082730CA78BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{138AE907-990F-4306-9DDC-786DC4BB8FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{138AE907-990F-4306-9DDC-786DC4BB8FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{138AE907-990F-4306-9DDC-786DC4BB8FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{138AE907-990F-4306-9DDC-786DC4BB8FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1FFE400-2C70-4B17-9C84-69DB08C6E272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1FFE400-2C70-4B17-9C84-69DB08C6E272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1FFE400-2C70-4B17-9C84-69DB08C6E272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1FFE400-2C70-4B17-9C84-69DB08C6E272}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +56,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{BB14B439-D8A6-427E-99C3-6224D98C36D6} = {02FE1D2B-20BF-4FA9-89AA-FF72CC0D7022}
 		{BD179FAF-4E61-4478-A3EE-F6089CB2B49E} = {02FE1D2B-20BF-4FA9-89AA-FF72CC0D7022}
+		{2BF9FB6E-9B75-4AAB-B337-3EF4338F35EF} = {C1FABE31-612A-47C4-890A-27AD4C6BC50E}
+		{EB0E45D2-9DED-438E-B514-082730CA78BF} = {C1FABE31-612A-47C4-890A-27AD4C6BC50E}
+		{138AE907-990F-4306-9DDC-786DC4BB8FEE} = {C1FABE31-612A-47C4-890A-27AD4C6BC50E}
+		{C1FFE400-2C70-4B17-9C84-69DB08C6E272} = {C1FABE31-612A-47C4-890A-27AD4C6BC50E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {35B147B1-BD0C-404C-8CB7-9DEFE383C347}
