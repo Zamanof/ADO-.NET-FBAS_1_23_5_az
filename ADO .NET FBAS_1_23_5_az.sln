@@ -11,13 +11,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADO .NET 01. Sql Read Data"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ADO .NET 02", "ADO .NET 02", "{C1FABE31-612A-47C4-890A-27AD4C6BC50E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO .NET 02. Multi Query", "ADO .NET 02. Multi Query\ADO .NET 02. Multi Query.csproj", "{2BF9FB6E-9B75-4AAB-B337-3EF4338F35EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADO .NET 02. Multi Query", "ADO .NET 02. Multi Query\ADO .NET 02. Multi Query.csproj", "{2BF9FB6E-9B75-4AAB-B337-3EF4338F35EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO 02. Configuration file", "ADO 02. Configuration file\ADO 02. Configuration file.csproj", "{EB0E45D2-9DED-438E-B514-082730CA78BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADO 02. Configuration file", "ADO 02. Configuration file\ADO 02. Configuration file.csproj", "{EB0E45D2-9DED-438E-B514-082730CA78BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO 02. Paramerized query", "ADO 02. Paramerized query\ADO 02. Paramerized query.csproj", "{138AE907-990F-4306-9DDC-786DC4BB8FEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADO 02. Paramerized query", "ADO 02. Paramerized query\ADO 02. Paramerized query.csproj", "{138AE907-990F-4306-9DDC-786DC4BB8FEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO 02. Stored procedure execute", "ADO 02. Stored procedure execute\ADO 02. Stored procedure execute.csproj", "{C1FFE400-2C70-4B17-9C84-69DB08C6E272}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADO 02. Stored procedure execute", "ADO 02. Stored procedure execute\ADO 02. Stored procedure execute.csproj", "{C1FFE400-2C70-4B17-9C84-69DB08C6E272}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ADO .NET 03", "ADO .NET 03", "{D01749EC-BA54-4977-8BBC-AEDD273A6BAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADO 03. DataTable", "ADO 03. DataTable\ADO 03. DataTable.csproj", "{7470D5DD-43F2-4536-8AF9-364E7D4E3FE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO 03. Disconnected mode", "ADO 03. Disconnected mode\ADO 03. Disconnected mode.csproj", "{27BBC3EA-34E8-47F5-92F8-422D646C3FD2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADO 03. Picture in Database", "ADO 03. Picture in Database\ADO 03. Picture in Database.csproj", "{DBFA1E44-B465-4036-BF87-780AB3D5E0FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +57,18 @@ Global
 		{C1FFE400-2C70-4B17-9C84-69DB08C6E272}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1FFE400-2C70-4B17-9C84-69DB08C6E272}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1FFE400-2C70-4B17-9C84-69DB08C6E272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7470D5DD-43F2-4536-8AF9-364E7D4E3FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7470D5DD-43F2-4536-8AF9-364E7D4E3FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7470D5DD-43F2-4536-8AF9-364E7D4E3FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7470D5DD-43F2-4536-8AF9-364E7D4E3FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27BBC3EA-34E8-47F5-92F8-422D646C3FD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27BBC3EA-34E8-47F5-92F8-422D646C3FD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27BBC3EA-34E8-47F5-92F8-422D646C3FD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27BBC3EA-34E8-47F5-92F8-422D646C3FD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBFA1E44-B465-4036-BF87-780AB3D5E0FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBFA1E44-B465-4036-BF87-780AB3D5E0FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBFA1E44-B465-4036-BF87-780AB3D5E0FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBFA1E44-B465-4036-BF87-780AB3D5E0FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +80,9 @@ Global
 		{EB0E45D2-9DED-438E-B514-082730CA78BF} = {C1FABE31-612A-47C4-890A-27AD4C6BC50E}
 		{138AE907-990F-4306-9DDC-786DC4BB8FEE} = {C1FABE31-612A-47C4-890A-27AD4C6BC50E}
 		{C1FFE400-2C70-4B17-9C84-69DB08C6E272} = {C1FABE31-612A-47C4-890A-27AD4C6BC50E}
+		{7470D5DD-43F2-4536-8AF9-364E7D4E3FE3} = {D01749EC-BA54-4977-8BBC-AEDD273A6BAA}
+		{27BBC3EA-34E8-47F5-92F8-422D646C3FD2} = {D01749EC-BA54-4977-8BBC-AEDD273A6BAA}
+		{DBFA1E44-B465-4036-BF87-780AB3D5E0FD} = {D01749EC-BA54-4977-8BBC-AEDD273A6BAA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {35B147B1-BD0C-404C-8CB7-9DEFE383C347}
