@@ -1,4 +1,6 @@
-﻿namespace ADO_.NET_06._Entity_Relationships._Many_to_Many;
+﻿using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
+
+namespace ADO_.NET_06._Entity_Relationships._Many_to_Many;
 
 internal class User
 {
@@ -7,7 +9,7 @@ internal class User
     public string LastName { get; set; }
     public string Login {  get; set; }
     public string Password {  get; set; }
-    public List<SocialNetwork> SocialNetworks { get; set; } = new List<SocialNetwork>();
+    public List<SocialNetwork> SocialNetworks { get; set; } = new List<SocialNetwork>();EntityEntryGraphIterator 
     public override string ToString()
     {
         return $"{Login} - > {FirstName} {LastName}";
