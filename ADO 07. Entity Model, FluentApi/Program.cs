@@ -2,8 +2,6 @@
 
 // Entity Model. Annotations
 
-
-
 using ApplicationContext db = new();
 List<Student> students = [
     new Student(){
