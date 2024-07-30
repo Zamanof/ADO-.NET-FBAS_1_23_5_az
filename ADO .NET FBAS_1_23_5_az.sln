@@ -55,13 +55,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADO 07. Entity Model, Fluen
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ADO .NET 08", "ADO .NET 08", "{016F4CA6-C2A6-4601-959D-CE6950E348C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO 08. C# VS MSSQL datatypes", "ADO 08. C# VS MSSQL datatypes\ADO 08. C# VS MSSQL datatypes.csproj", "{AB853986-9CE0-4056-A106-96C5045AAC19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADO 08. C# VS MSSQL datatypes", "ADO 08. C# VS MSSQL datatypes\ADO 08. C# VS MSSQL datatypes.csproj", "{AB853986-9CE0-4056-A106-96C5045AAC19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO 08. Read Relational data. Eager Loading", "ADO 08. Read Relational data. Eager Loading\ADO 08. Read Relational data. Eager Loading.csproj", "{D2195E32-7AA2-4797-9166-BF2BD2A595C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADO 08. Read Relational data. Eager Loading", "ADO 08. Read Relational data. Eager Loading\ADO 08. Read Relational data. Eager Loading.csproj", "{D2195E32-7AA2-4797-9166-BF2BD2A595C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO 08. Read Relational data, Explicit Loading", "ADO 08. Read Relational data, Explicit Loading\ADO 08. Read Relational data, Explicit Loading.csproj", "{A540024B-B1EE-4568-AC20-6608824A2DE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADO 08. Read Relational data, Explicit Loading", "ADO 08. Read Relational data, Explicit Loading\ADO 08. Read Relational data, Explicit Loading.csproj", "{A540024B-B1EE-4568-AC20-6608824A2DE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO 08. Read Relational data, Lazy Loading", "ADO 08. Read Relational data, Lazy Loading\ADO 08. Read Relational data, Lazy Loading.csproj", "{E09C1915-D230-4A9D-B5CB-B1D6ADA7CB84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADO 08. Read Relational data, Lazy Loading", "ADO 08. Read Relational data, Lazy Loading\ADO 08. Read Relational data, Lazy Loading.csproj", "{E09C1915-D230-4A9D-B5CB-B1D6ADA7CB84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ADO .NET 09", "ADO .NET 09", "{71038A0B-A941-422F-B487-309A8C8D6A48}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADO  09. Migration", "ADO  09. Migration\ADO  09. Migration.csproj", "{5A46D86A-6193-478D-BAD3-D104F35D7E02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO 09. Dapper ORM", "ADO 09. Dapper ORM\ADO 09. Dapper ORM.csproj", "{51115957-BCE6-44CD-A5E1-F435E1170DBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -157,6 +163,14 @@ Global
 		{E09C1915-D230-4A9D-B5CB-B1D6ADA7CB84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E09C1915-D230-4A9D-B5CB-B1D6ADA7CB84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E09C1915-D230-4A9D-B5CB-B1D6ADA7CB84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A46D86A-6193-478D-BAD3-D104F35D7E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A46D86A-6193-478D-BAD3-D104F35D7E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A46D86A-6193-478D-BAD3-D104F35D7E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A46D86A-6193-478D-BAD3-D104F35D7E02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51115957-BCE6-44CD-A5E1-F435E1170DBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51115957-BCE6-44CD-A5E1-F435E1170DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51115957-BCE6-44CD-A5E1-F435E1170DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51115957-BCE6-44CD-A5E1-F435E1170DBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -184,6 +198,8 @@ Global
 		{D2195E32-7AA2-4797-9166-BF2BD2A595C6} = {016F4CA6-C2A6-4601-959D-CE6950E348C5}
 		{A540024B-B1EE-4568-AC20-6608824A2DE2} = {016F4CA6-C2A6-4601-959D-CE6950E348C5}
 		{E09C1915-D230-4A9D-B5CB-B1D6ADA7CB84} = {016F4CA6-C2A6-4601-959D-CE6950E348C5}
+		{5A46D86A-6193-478D-BAD3-D104F35D7E02} = {71038A0B-A941-422F-B487-309A8C8D6A48}
+		{51115957-BCE6-44CD-A5E1-F435E1170DBB} = {71038A0B-A941-422F-B487-309A8C8D6A48}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {35B147B1-BD0C-404C-8CB7-9DEFE383C347}
