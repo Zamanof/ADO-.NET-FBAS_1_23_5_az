@@ -12,5 +12,6 @@ IAuthorRepository repo = new AuthorRepository(new SqlConnection(),
 
 //Console.WriteLine(repo.GetById(13));
 //repo.Remove(18);
-repo.Update(new Author { Id = 16, FirstName = "Nadir", LastName = "Zaman" });
+//repo.Update(new Author { Id = 16, FirstName = "Nadir", LastName = "Zaman" });
+repo.RemoveByIdArray([2, 5, 13, 78]);
 repo.GetAll().ToList().ForEach(Console.WriteLine);
